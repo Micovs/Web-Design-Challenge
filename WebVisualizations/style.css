@@ -1,0 +1,49 @@
+/* Body */
+body{
+  background-color: #eeeeee ; 
+}
+
+/* Navbar */
+.navbar{
+  max-height: 60px;
+}
+
+.navbar .navbar-brand{
+  color: white; 
+  padding: inherit; 
+  font-weight: bold; 
+  background-color: #1d4454;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+  background-color:#f7f1f1 !important;
+ }
+.navbar-brand:hover{
+color: rgb(18, 94, 65) !important;
+}
+.dropdown-item{
+  color: #6D8092 !important; 
+}
+.dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:#eeeeee !important; 
+}
+
+/* Images */
+
+
+/* Paragraph Element */
+p{
+color: #black ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px; 
+}
+
+/* Box Class */
+.box {
+  margin-top: 60px; 
+  margin-bottom: 62px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: white; 
+}
+/* Media Queries */
