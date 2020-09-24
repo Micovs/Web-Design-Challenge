@@ -29,7 +29,11 @@ color: rgb(18, 94, 65) !important;
 }
 
 /* Images */
-
+.space {
+width: 50%;
+margin-right: 15px;
+margin-bottom: 1px;
+}
 
 /* Paragraph Element */
 p{
