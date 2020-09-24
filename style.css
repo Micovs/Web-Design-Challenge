@@ -34,7 +34,11 @@ width: 50%;
 margin-right: 15px;
 margin-bottom: 1px;
 }
-
+.space1 {
+  width: 100%;
+  margin-right: 15px;
+  margin-bottom: 1px;
+  }
 /* Paragraph Element */
 p{
 color: #black ;
