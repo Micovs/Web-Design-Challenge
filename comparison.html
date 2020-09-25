@@ -8,7 +8,10 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+  <!-- Bootstrap theme cosmo applyed on info page -->
+  
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css"
+    integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous"> -->
   <!--CSS Link -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -38,7 +41,7 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="cloudines.html">Cloudines</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Wind Speed</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
           </div>
         </li>  
         <li class="nav-item">
@@ -53,50 +56,35 @@
   
   <!--Landing pade-->
 
-  <!--Left Box-->
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col md-12">
+      <div class="col-lg-12 col md-12">
         <div class="box">
-          <h1 style="color: #0BADA6;">City latitude vs Humidity </h1>
+          <h1 style="color: #0BADA6;">Comparison: Latitude vs X</h1>
           <hr>
-          <div class="thumbnail">
-            <img class="img-thumbnail float-left space1" src="Resources/assets/images/Fig2.png " alt="Scater plot of City latitude vs Humidity(01/05/17)">
+          <p>Click any plot to get an in-dept analysis.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="text-center" style="color: #0BADA6;"> vs. Max Temperature</h3>
+              <a href="temperature.html"><img width="100%" src="Resources/assets/images/Fig1.png" alt="Scater plot of City latitude vs Temperature(01/05/17)"></a>
+            </div>
+            <div class="col-md-6">
+              <h3 class="text-center" style="color: #0BADA6;"> vs. Humidity</h3>
+              <a href="humidity.html"><img width="100%" src="Resources/assets/images/Fig2.png" alt="Scater plot of City latitude vs Humidity(01/05/17)"></a>
+            </div>
           </div>
-          <p>
-            To further analyze, the data was split into Northern and Southern hemisphere 
-            and analyzed to find if there is a correlation between Temperature, Humidity, 
-            Cloudiness, Wind Speed, and latitude. Of the four weather measures, examined 
-            versus the latitude the strongest correlation was found between Southern Hemisphere
-            changes in temperature versus latitude, with a moderate linear association and r-squared value of 0.60.
-          </p> 
-        </div>
-      </div>
-
-  <!--Right Box -->
-      <div class="col-lg-5 col-md-12">
-        <div class="box">
-          <div class="title">
-            <h3 style="color: #0BADA6;">Visualizations</h3>
-          </div>
-          <hr>
-          <div class="row" style="padding-bottom: 25px;">
+          <br>
+          <div class="row">
             <div class="col-md-6">
-              <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" width="100%" alt="Scatter Plot displaying City Latitude vs Max Temperature"></a>
+              <h3 class="text-center" style="color: #0BADA6;"> vs. Cloudines</h3>
+              <a href="cloudines.html"><img width="100%" src="Resources/assets/images/Fig3.png" alt="Scater plot of City latitude vs Cloudiness(01/05/17)"></a>
             </div>
             <div class="col-md-6">
-              <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="Scatter Plot displaying City Latitude vs Humidity"></a>
-            </div>
-            <div class="col-md-6">
-              <a href="cloudines.html"><img src="Resources/assets/images/Fig3.png" width="100%" alt="Scatter Plot displaying City Latitude vs Cloudiness"></a>
-            </div>
-            <div class="col-md-6">
-              <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" width="100%" alt="Scatter Plot displaying City Latitude vs Wind Speed"></a>
+              <h3 class="text-center" style="color: #0BADA6;"> vs. Wind Speed</h3>
+              <a href="windspeed.html"><img width="100%" src="Resources/assets/images/Fig4.png" alt="Scater plot of City latitude vs Windv(01/05/17)"></a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
       
       
 
